@@ -42,6 +42,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ComposablesTypesScreen() {
+    //1 columna con 2 filas. En cada fila dos tarjetas/columnas
     Column(Modifier.fillMaxWidth()) {
         Row(Modifier.weight(1f)) {
             ComposableCard(
